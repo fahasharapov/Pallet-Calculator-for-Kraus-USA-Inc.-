@@ -4,6 +4,7 @@ Automation of a process of calculating the pallets dimensions (volume, class, we
 #include <iostream>
 #include <string>
 using namespace std;
+
 int main ()
 {
 	//DECLARING VARIABLES
