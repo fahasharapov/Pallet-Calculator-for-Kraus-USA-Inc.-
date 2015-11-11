@@ -40,7 +40,9 @@ palletClass = palletWeight[count] / palletVolume[count];
 //ASSIGNING THE TOTAL OF "PALLETVOLUME" AND "PALLETWEIGHT" TO NEW VARIABLES
 totalVolume = totalVolume + palletVolume[count];
 totalWeight = totalWeight + palletWeight [count];
-} //PALLET TOTAL WEIGHT & VOLUME OUTPUT
+} 
+
+//PALLET TOTAL WEIGHT & VOLUME OUTPUT
 
 cout << "\nTOTAL WEIGHT: " << totalWeight << " lbs.";
 cout << "\nVOLUME: " << totalVolume << " c/f." << endl;
