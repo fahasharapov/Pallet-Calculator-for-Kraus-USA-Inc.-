@@ -9,7 +9,7 @@ int main ()
 {
 
 	//DECLARING VARIABLES
-	float palletWidth, palletHeight, palletLenght;
+	float palletWidth, palletHeight, palletLength;
     float palletClass;
     int palletQty;
 
@@ -46,13 +46,13 @@ int main ()
 	cout << "Width: ";
 	cin >> palletWidth;
 
-	//LENGHT SIZE PROMPT
+	//LENGTH SIZE PROMPT
 	cout << "Length: ";
-	cin >> palletLenght;
+	cin >> palletLength;
 
 	//PALLET VOLUME CALCULATION
 	float palletVolume[50];
-	palletVolume[count] = (palletWidth * palletHeight * palletLenght) / 1728;
+	palletVolume[count] = (palletWidth * palletHeight * palletLength) / 1728;
 
 	//PALLET CLASS CALCULATION
 	palletClass = palletWeight[count] / palletVolume[count];
